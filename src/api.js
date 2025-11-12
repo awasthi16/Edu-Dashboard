@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL:  "https://edu-dashboard-backend.vercel.app",
+  baseURL:  "https://edu-dashboard-backend.vercel.app/",
 });
 
 // Automatically attach JWT from localStorage
